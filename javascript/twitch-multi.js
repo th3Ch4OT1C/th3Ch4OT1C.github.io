@@ -33,7 +33,7 @@ Source = function(src, id, width = 310, height = 189) {
 
 	this.setVolume = function(volume = null) {
 		if (volume == 'mute') {
-			this.player.setVolume(0.0);
+			this.player.setVolume(0.5);
 		} else {
 			this.player.setVolume(this.volume);
 		}
