@@ -15,13 +15,18 @@
 
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="javascript/twitch-multi.js"></script>
+    <script src="javascript/cookies.js"></script>
+    <script src="javascript/twitch_source.js"></script>
+    <script src="javascript/twitch_multi.js"></script>
 
   </head>
 
   <body style="overflow: hidden; background-color: #19171c; width: 100vw; height: 100vh;">
-
+    <div id="menu" class="hidden" style="position: absolute; top: 5%; left: -50%; background-color: rgba(32, 32, 32, 0.5); z-index: 100; padding: 10px; border-radius: 8px;">
+      <button id="changeSources">Change Sources</button>
+      <br>
+      <button id="changeLayout">Change Layout</button>
+    </div>
 
   </body>
 </html>
